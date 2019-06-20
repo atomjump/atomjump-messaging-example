@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, user-scalable=no">
+	
+	 <!-- AtomJump Feedback Starts -->
+	 <link rel="StyleSheet" href="https://AtomJump.com/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- AtomJump Feedback CSS -->
+	<link rel="StyleSheet" href="https://AtomJump.com/bower_components/atomjump/css/releases/comments-0.9.1.css?ver=1">
+	
+	<!-- Bootstrap HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- Include your version of jQuery here. -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	
+	<script>
+		//Add your configuration here for AtomJump Feedback
+		var ajFeedback = {
+			"uniqueFeedbackId" : "aj_public_changeme",		//This can be anything globally unique to your company/page	
+			"myMachineUser" : "192.104.113.117:8",			
+			"server":  "https://AtomJump.com/api",
+			"cssFeedback": "https://AtomJump.com/bower_components/atomjump/css/releases/comments-0.9.1.css?ver=1",
+			"cssBootstrap": "https://AtomJump.com/bower_components/bootstrap/dist/css/bootstrap.min.css"
+		}
+	</script>
+	<script type="text/javascript" src="https://AtomJump.com/js/chat-0.9.2.js"></script>
+<!-- AtomJump Feedback Ends -->
+	</head>
+	
+	<body>
+		<a class="comment-open" href="javascript:">Click me for messaging</a>
+
+		<div>
+			<div style="position: relative; width: 640px; height:640px; margin-left: auto; margin-right: auto;">
+				<!-- Any link on the page can have the 'comment-open' class added and a blank 'href="javascript:"' -->
+				<a class="comment-open" href="javascript:">
+						<img style="width: 640px; height: 640px;" src="https://atomjump.com/wp/wp-content/uploads/2018/12/speech-bubble-start-1.png"><br/>
+						<p align="center">Click me for messaging</p>
+				</a>
+			</div>
+		</div>
+		
+		
+		<!-- holds the popup comments. Can be anywhere between the <body> tags -->
+		<div id="comment-holder"></div>
+	
+	</body>
+	
+</html>
